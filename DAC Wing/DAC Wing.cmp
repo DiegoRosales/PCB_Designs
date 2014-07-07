@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06/07/2014 22:39:38
+
+BeginCmp
+TimeStamp = /53BA1148;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA1157;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA0F37;
+Reference = C3;
+ValeurCmp = 1.5nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA1050;
+Reference = C4;
+ValeurCmp = 1.5nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA0E38;
+Reference = DAC1;
+ValeurCmp = MAX5556;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA17F7;
+Reference = J1;
+ValeurCmp = JACK_ST_1SW;
+IdModule  = Jack_stereo_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA0E0B;
+Reference = PAP1;
+ValeurCmp = PAPILIO_WING;
+IdModule  = Papilio_Wing;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA0F28;
+Reference = R1;
+ValeurCmp = 560R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA0F19;
+Reference = R2;
+ValeurCmp = 100k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA104A;
+Reference = R3;
+ValeurCmp = 560R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BA1044;
+Reference = R4;
+ValeurCmp = 100k;
+IdModule  = SM1206;
+EndCmp
+
+EndListe
