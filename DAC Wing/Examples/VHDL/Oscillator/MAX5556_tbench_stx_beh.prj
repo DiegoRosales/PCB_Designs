@@ -1,0 +1,2 @@
+vhdl isim_temp "MAX5556.vhd"
+vhdl isim_temp "MAX5556_tbench.vhd"

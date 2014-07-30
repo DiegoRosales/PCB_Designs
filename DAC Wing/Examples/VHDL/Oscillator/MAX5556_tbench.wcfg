@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/GitHub/PCB_Designs/DAC Wing/Examples/VHDL/Oscillator/MAX5556_tbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="max5556_tbench" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/max5556_tbench/ck256fs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck256fs</obj_property>
+      <obj_property name="ObjectShortName">ck256fs</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/mclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mclk</obj_property>
+      <obj_property name="ObjectShortName">mclk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[47:0]</obj_property>
+      <obj_property name="ObjectShortName">data[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/lrclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lrclk</obj_property>
+      <obj_property name="ObjectShortName">lrclk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/sdata" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdata</obj_property>
+      <obj_property name="ObjectShortName">sdata</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/sclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/MAX5556_module/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/MAX5556_module/ck256fs_temp" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ck256fs_temp</obj_property>
+      <obj_property name="ObjectShortName">ck256fs_temp</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/MAX5556_module/bit_count_temp" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_count_temp</obj_property>
+      <obj_property name="ObjectShortName">bit_count_temp</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/MAX5556_module/leftright" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">leftright</obj_property>
+      <obj_property name="ObjectShortName">leftright</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[47:0]</obj_property>
+      <obj_property name="ObjectShortName">data[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/max5556_tbench/MAX5556_module/data_buffer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_buffer[47:0]</obj_property>
+      <obj_property name="ObjectShortName">data_buffer[47:0]</obj_property>
+   </wvobject>
+</wave_config>

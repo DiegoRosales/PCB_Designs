@@ -1,0 +1,28 @@
+Command line:
+   MAX5556_tbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64401
+
+Sun Jul 20 11:10:15 2014
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 523.526 Meg
+
+ Total Signals          : 25
+ Total Nets             : 110
+ Total Signal Drivers   : 16
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 8
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 595
+
+ Total Simulation Time: 0.280801 sec
+
+ Current Memory Usage: 523.53 Meg
+
+Sun Jul 20 21:38:02 2014
+
