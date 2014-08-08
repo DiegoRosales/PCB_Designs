@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 07/08/2014 21:31:58
+
+BeginCmp
+TimeStamp = /53E3E83A;
+Reference = ADC1;
+ValeurCmp = ADC128S102;
+IdModule  = tssop-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DC72;
+Reference = ARD1;
+ValeurCmp = ARDUINO_UNO;
+IdModule  = Arduino_Shield;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41815;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4181B;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41821;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41827;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4182D;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EBEE;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EBE8;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EA65;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EA56;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41833;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41839;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4183F;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41845;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4184B;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DC81;
+Reference = PAP1;
+ValeurCmp = PAPILIO_WINGS;
+IdModule  = Papilio_Wings;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DC94;
+Reference = PAP2;
+ValeurCmp = PAPILIO_WINGS;
+IdModule  = Papilio_Wings;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4368F;
+Reference = PAP3;
+ValeurCmp = PAPILIO_WINGS;
+IdModule  = Papilio_Wings;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DDDC;
+Reference = U1;
+ValeurCmp = TXB0104;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3E064;
+Reference = U2;
+ValeurCmp = TXB0104;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DDD6;
+Reference = U3;
+ValeurCmp = TXB0104;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DE05;
+Reference = U4;
+ValeurCmp = TXB0104;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DDA1;
+Reference = U5;
+ValeurCmp = TXB0104;
+IdModule  = SO14E;
+EndCmp
+
+EndListe
