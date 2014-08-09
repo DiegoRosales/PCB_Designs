@@ -33,13 +33,14 @@ LIBS:MCU
 LIBS:papilio_wings
 LIBS:Regulators
 LIBS:ADC
+LIBS:Arduino Header Wing-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "7 aug 2014"
+Date "8 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1139,4 +1140,15 @@ NoConn ~ 2050 3800
 NoConn ~ 2050 3900
 NoConn ~ 2050 4000
 NoConn ~ 2050 4100
+$Comp
+L PAPILIO_WINGS PAP3
+U 1 1 53E4368F
+P 9950 4900
+F 0 "PAP3" H 9900 5650 60  0000 C CNN
+F 1 "PAPILIO_WINGS" H 9950 5750 60  0000 C CNN
+F 2 "~" H 9600 5750 60  0000 C CNN
+F 3 "~" H 9600 5750 60  0000 C CNN
+	1    9950 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

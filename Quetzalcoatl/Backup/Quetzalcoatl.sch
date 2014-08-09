@@ -1,0 +1,348 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:papilio_wings
+LIBS:Ethernet_controllers
+LIBS:Transformers
+LIBS:ADC
+LIBS:PLL
+LIBS:Jacks
+LIBS:DAC
+LIBS:Quetzalcoatl-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title "Quetzalcoatl Digital Snake"
+Date "27 jun 2014"
+Rev "1.0"
+Comp "Cholula Audio"
+Comment1 "Main page"
+Comment2 "By Diego Rosales"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PAPILIO_WINGS PAP1
+U 1 1 539B1D86
+P 1500 3950
+F 0 "PAP1" H 1800 3850 60  0000 C CNN
+F 1 "PAPILIO_WINGS" H 1850 3950 60  0000 C CNN
+F 2 "~" H 1500 3950 60  0000 C CNN
+F 3 "~" H 1500 3950 60  0000 C CNN
+	1    1500 3950
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 4200 4250 1300 2000
+U 539B24BB
+F0 "Ethernet" 100
+F1 "Ethernet.sch" 100
+F2 "RESET" I L 4200 4800 60 
+F3 "MISO" O L 4200 5000 60 
+F4 "MOSI" I L 4200 5100 60 
+F5 "CS" I L 4200 5300 60 
+F6 "CK25" O L 4200 4350 60 
+F7 "ETH_INT" O L 4200 4500 60 
+F8 "SCK" I L 4200 5200 60 
+$EndSheet
+$Sheet
+S 4200 1950 1300 2000
+U 539B24BD
+F0 "ADC" 100
+F1 "ADC.sch" 100
+F2 "D_ADC" O L 4200 2950 60 
+F3 "LRCK" I L 4200 2850 60 
+F4 "BCK" I L 4200 2750 60 
+F5 "ADC_CTRL_SEL" I L 4200 2450 60 
+F6 "ADC_CTRL_DATA" I L 4200 2350 60 
+F7 "ADC_CTRL_CK" I L 4200 2250 60 
+F8 "CK27" I L 4200 3300 60 
+$EndSheet
+$Comp
+L +3.3V #PWR01
+U 1 1 53A3CC1A
+P 750 4200
+F 0 "#PWR01" H 750 4160 30  0001 C CNN
+F 1 "+3.3V" H 750 4310 30  0000 C CNN
+F 2 "" H 750 4200 60  0000 C CNN
+F 3 "" H 750 4200 60  0000 C CNN
+	1    750  4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4550 2350 4550
+Wire Wire Line
+	2350 4550 2350 5300
+Wire Wire Line
+	2350 5300 4200 5300
+Wire Wire Line
+	2450 4450 2450 5200
+Wire Wire Line
+	2050 4350 2600 4350
+Wire Wire Line
+	2600 4350 2600 5100
+Wire Wire Line
+	2600 5100 4200 5100
+Wire Wire Line
+	2050 4250 2750 4250
+Wire Wire Line
+	2750 4250 2750 5000
+Wire Wire Line
+	2750 5000 4200 5000
+Wire Wire Line
+	2050 4150 2900 4150
+Wire Wire Line
+	2900 4150 2900 4800
+Wire Wire Line
+	2900 4800 4200 4800
+Wire Wire Line
+	2050 3650 3000 3650
+Wire Wire Line
+	3000 3650 3000 3300
+Wire Wire Line
+	3000 3300 4200 3300
+Wire Wire Line
+	2050 3550 2900 3550
+Wire Wire Line
+	2900 3550 2900 2950
+Wire Wire Line
+	2900 2950 4200 2950
+Wire Wire Line
+	2750 2850 4200 2850
+Wire Wire Line
+	2750 2850 2750 3450
+Wire Wire Line
+	2750 3450 2050 3450
+Wire Wire Line
+	2050 3350 2650 3350
+Wire Wire Line
+	2650 3350 2650 2750
+Wire Wire Line
+	2650 2750 4200 2750
+Wire Wire Line
+	2050 3250 2550 3250
+Wire Wire Line
+	2550 3250 2550 2450
+Wire Wire Line
+	2550 2450 4200 2450
+Wire Wire Line
+	2050 3150 2450 3150
+Wire Wire Line
+	2450 3150 2450 2350
+Wire Wire Line
+	2450 2350 4200 2350
+Wire Wire Line
+	2050 3050 2350 3050
+Wire Wire Line
+	2350 3050 2350 2250
+Wire Wire Line
+	2350 2250 4200 2250
+Wire Wire Line
+	750  4350 900  4350
+Wire Wire Line
+	750  4200 750  4350
+Wire Wire Line
+	750  3550 900  3550
+Wire Wire Line
+	750  3400 750  3550
+$Comp
+L +3.3V #PWR02
+U 1 1 53A3CDA3
+P 750 3400
+F 0 "#PWR02" H 750 3360 30  0001 C CNN
+F 1 "+3.3V" H 750 3510 30  0000 C CNN
+F 2 "" H 750 3400 60  0000 C CNN
+F 3 "" H 750 3400 60  0000 C CNN
+	1    750  3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3750 850  3750
+Wire Wire Line
+	850  3750 850  3800
+$Comp
+L GND #PWR03
+U 1 1 53A3CF8F
+P 850 3800
+F 0 "#PWR03" H 850 3800 30  0001 C CNN
+F 1 "GND" H 850 3730 30  0001 C CNN
+F 2 "" H 850 3800 60  0000 C CNN
+F 3 "" H 850 3800 60  0000 C CNN
+	1    850  3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  4550 850  4550
+Wire Wire Line
+	850  4550 850  4600
+$Comp
+L GND #PWR04
+U 1 1 53A3CFF2
+P 850 4600
+F 0 "#PWR04" H 850 4600 30  0001 C CNN
+F 1 "GND" H 850 4530 30  0001 C CNN
+F 2 "" H 850 4600 60  0000 C CNN
+F 3 "" H 850 4600 60  0000 C CNN
+	1    850  4600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 900  4450
+NoConn ~ 900  3650
+Wire Wire Line
+	2050 4050 3050 4050
+Wire Wire Line
+	3050 4050 3050 4500
+Wire Wire Line
+	3050 4500 4200 4500
+Wire Wire Line
+	4200 4350 3200 4350
+Wire Wire Line
+	3200 4350 3200 3950
+Wire Wire Line
+	3200 3950 2050 3950
+Wire Wire Line
+	2050 4450 2450 4450
+Wire Wire Line
+	2450 5200 4200 5200
+$Comp
+L PAPILIO_WINGS PAP2
+U 1 1 53AB6564
+P 6850 3900
+F 0 "PAP2" H 7150 3800 60  0000 C CNN
+F 1 "PAPILIO_WINGS" H 7200 3900 60  0000 C CNN
+F 2 "~" H 6850 3900 60  0000 C CNN
+F 3 "~" H 6850 3900 60  0000 C CNN
+	1    6850 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 53AB6570
+P 6200 4150
+F 0 "#PWR05" H 6200 4240 20  0001 C CNN
+F 1 "+5V" H 6200 4240 30  0000 C CNN
+F 2 "" H 6200 4150 60  0000 C CNN
+F 3 "" H 6200 4150 60  0000 C CNN
+	1    6200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4200 6200 4200
+Wire Wire Line
+	6200 4200 6200 4150
+Wire Wire Line
+	6250 3400 6200 3400
+Wire Wire Line
+	6200 3400 6200 3350
+$Comp
+L +5V #PWR06
+U 1 1 53AB6584
+P 6200 3350
+F 0 "#PWR06" H 6200 3440 20  0001 C CNN
+F 1 "+5V" H 6200 3440 30  0000 C CNN
+F 2 "" H 6200 3350 60  0000 C CNN
+F 3 "" H 6200 3350 60  0000 C CNN
+	1    6200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3700 6200 3700
+Wire Wire Line
+	6200 3700 6200 3750
+$Comp
+L GND #PWR07
+U 1 1 53AB658C
+P 6200 3750
+F 0 "#PWR07" H 6200 3750 30  0001 C CNN
+F 1 "GND" H 6200 3680 30  0001 C CNN
+F 2 "" H 6200 3750 60  0000 C CNN
+F 3 "" H 6200 3750 60  0000 C CNN
+	1    6200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4500 6200 4500
+Wire Wire Line
+	6200 4500 6200 4550
+$Comp
+L GND #PWR08
+U 1 1 53AB6594
+P 6200 4550
+F 0 "#PWR08" H 6200 4550 30  0001 C CNN
+F 1 "GND" H 6200 4480 30  0001 C CNN
+F 2 "" H 6200 4550 60  0000 C CNN
+F 3 "" H 6200 4550 60  0000 C CNN
+	1    6200 4550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 4400
+NoConn ~ 6250 3600
+$Sheet
+S 8250 2550 1450 2100
+U 53AB66E8
+F0 "DAC" 100
+F1 "DAC.sch" 100
+F2 "SDATA" I L 8250 2900 60 
+F3 "SCLK" I L 8250 3000 60 
+F4 "LRCLK" I L 8250 3100 60 
+F5 "MCLK" I L 8250 3500 60 
+$EndSheet
+NoConn ~ 900  3450
+NoConn ~ 900  4250
+NoConn ~ 6250 3500
+NoConn ~ 6250 4300
+Wire Wire Line
+	7400 3000 7700 3000
+Wire Wire Line
+	7700 3000 7700 2900
+Wire Wire Line
+	7700 2900 8250 2900
+Wire Wire Line
+	7400 3100 7800 3100
+Wire Wire Line
+	7800 3100 7800 3000
+Wire Wire Line
+	7800 3000 8250 3000
+Wire Wire Line
+	7400 3200 7900 3200
+Wire Wire Line
+	7900 3200 7900 3100
+Wire Wire Line
+	7900 3100 8250 3100
+Wire Wire Line
+	7400 3300 7900 3300
+Wire Wire Line
+	7900 3300 7900 3500
+Wire Wire Line
+	7900 3500 8250 3500
+$EndSCHEMATC

@@ -1,0 +1,376 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:papilio_wings
+LIBS:Ethernet_controllers
+LIBS:Transformers
+LIBS:ADC
+LIBS:PLL
+LIBS:Jacks
+LIBS:DAC
+LIBS:Pushbutton
+LIBS:Quetzalcoatl-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date "7 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JACK_ST_3SW J4
+U 1 1 53AB67FA
+P 9050 4800
+F 0 "J4" H 8675 4450 60  0000 C CNN
+F 1 "JACK_ST_3SW" H 8975 5250 60  0000 C CNN
+F 2 "~" H 9250 4700 60  0000 C CNN
+F 3 "~" H 9250 4700 60  0000 C CNN
+	1    9050 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L MAX5556 DAC1
+U 1 1 53AB767E
+P 3200 4200
+F 0 "DAC1" H 3200 4500 60  0000 C CNN
+F 1 "MAX5556" H 3200 4600 60  0000 C CNN
+F 2 "~" H 3200 4500 60  0000 C CNN
+F 3 "~" H 3200 4500 60  0000 C CNN
+	1    3200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR26
+U 1 1 53AB76A1
+P 3200 3400
+F 0 "#PWR26" H 3200 3490 20  0001 C CNN
+F 1 "+5V" H 3200 3490 30  0000 C CNN
+F 2 "" H 3200 3400 60  0000 C CNN
+F 3 "" H 3200 3400 60  0000 C CNN
+	1    3200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR30
+U 1 1 53AB76B1
+P 3200 5050
+F 0 "#PWR30" H 3200 5050 30  0001 C CNN
+F 1 "GND" H 3200 4980 30  0001 C CNN
+F 2 "" H 3200 5050 60  0000 C CNN
+F 3 "" H 3200 5050 60  0000 C CNN
+	1    3200 5050
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 3950 0    120  Input Italic 24
+SDATA
+Text HLabel 2650 4100 0    120  Input Italic 24
+SCLK
+Text HLabel 2650 4250 0    120  Input Italic 24
+LRCLK
+Text HLabel 2650 4500 0    120  Input Italic 24
+MCLK
+$Comp
+L R R11
+U 1 1 53AB76C2
+P 5450 3900
+F 0 "R11" V 5530 3900 40  0000 C CNN
+F 1 "100k" V 5457 3901 40  0000 C CNN
+F 2 "~" V 5380 3900 30  0000 C CNN
+F 3 "~" H 5450 3900 30  0000 C CNN
+	1    5450 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R10
+U 1 1 53AB76D6
+P 6000 3550
+F 0 "R10" V 6080 3550 40  0000 C CNN
+F 1 "560R" V 6007 3551 40  0000 C CNN
+F 2 "~" V 5930 3550 30  0000 C CNN
+F 3 "~" H 6000 3550 30  0000 C CNN
+	1    6000 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C24
+U 1 1 53AB76EB
+P 6500 3900
+F 0 "C24" H 6500 4000 40  0000 L CNN
+F 1 "1.5nF" H 6506 3815 40  0000 L CNN
+F 2 "~" H 6538 3750 30  0000 C CNN
+F 3 "~" H 6500 3900 60  0000 C CNN
+	1    6500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR28
+U 1 1 53AB772D
+P 5450 4200
+F 0 "#PWR28" H 5450 4200 30  0001 C CNN
+F 1 "GND" H 5450 4130 30  0001 C CNN
+F 2 "" H 5450 4200 60  0000 C CNN
+F 3 "" H 5450 4200 60  0000 C CNN
+	1    5450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR29
+U 1 1 53AB773A
+P 6500 4200
+F 0 "#PWR29" H 6500 4200 30  0001 C CNN
+F 1 "GND" H 6500 4130 30  0001 C CNN
+F 2 "" H 6500 4200 60  0000 C CNN
+F 3 "" H 6500 4200 60  0000 C CNN
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR27
+U 1 1 53AB777F
+P 8250 4150
+F 0 "#PWR27" H 8250 4150 30  0001 C CNN
+F 1 "GND" H 8250 4080 30  0001 C CNN
+F 2 "" H 8250 4150 60  0000 C CNN
+F 3 "" H 8250 4150 60  0000 C CNN
+	1    8250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 53AB77E9
+P 5450 4950
+F 0 "R13" V 5530 4950 40  0000 C CNN
+F 1 "100k" V 5457 4951 40  0000 C CNN
+F 2 "~" V 5380 4950 30  0000 C CNN
+F 3 "~" H 5450 4950 30  0000 C CNN
+	1    5450 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R12
+U 1 1 53AB77EF
+P 6000 4600
+F 0 "R12" V 6080 4600 40  0000 C CNN
+F 1 "560R" V 6007 4601 40  0000 C CNN
+F 2 "~" V 5930 4600 30  0000 C CNN
+F 3 "~" H 6000 4600 30  0000 C CNN
+	1    6000 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C25
+U 1 1 53AB77F5
+P 6500 4950
+F 0 "C25" H 6500 5050 40  0000 L CNN
+F 1 "1.5nF" H 6506 4865 40  0000 L CNN
+F 2 "~" H 6538 4800 30  0000 C CNN
+F 3 "~" H 6500 4950 60  0000 C CNN
+	1    6500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR32
+U 1 1 53AB7801
+P 5450 5250
+F 0 "#PWR32" H 5450 5250 30  0001 C CNN
+F 1 "GND" H 5450 5180 30  0001 C CNN
+F 2 "" H 5450 5250 60  0000 C CNN
+F 3 "" H 5450 5250 60  0000 C CNN
+	1    5450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR33
+U 1 1 53AB7807
+P 6500 5250
+F 0 "#PWR33" H 6500 5250 30  0001 C CNN
+F 1 "GND" H 6500 5180 30  0001 C CNN
+F 2 "" H 6500 5250 60  0000 C CNN
+F 3 "" H 6500 5250 60  0000 C CNN
+	1    6500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR31
+U 1 1 53AB7810
+P 8250 5200
+F 0 "#PWR31" H 8250 5200 30  0001 C CNN
+F 1 "GND" H 8250 5130 30  0001 C CNN
+F 2 "" H 8250 5200 60  0000 C CNN
+F 3 "" H 8250 5200 60  0000 C CNN
+	1    8250 5200
+	1    0    0    -1  
+$EndComp
+Text Notes 1750 3150 0    120  Italic 24
+DAC
+Text Notes 5150 3100 0    120  Italic 24
+Output filter
+Text Notes 7950 3100 0    120  Italic 24
+Output jacks
+NoConn ~ 8400 4900
+$Comp
+L CONN_3 K2
+U 1 1 53B4283F
+P 7150 4250
+F 0 "K2" V 7100 4250 50  0000 C CNN
+F 1 "CONN_3" V 7200 4250 40  0000 C CNN
+F 2 "" H 7150 4250 60  0000 C CNN
+F 3 "" H 7150 4250 60  0000 C CNN
+	1    7150 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3400 3200 3500
+Wire Wire Line
+	3200 4950 3200 5050
+Wire Wire Line
+	5450 3650 5450 3550
+Wire Wire Line
+	4350 3550 5750 3550
+Wire Wire Line
+	6250 3550 8400 3550
+Wire Wire Line
+	6500 3550 6500 3700
+Wire Wire Line
+	5450 4150 5450 4200
+Wire Wire Line
+	6500 4100 6500 4200
+Connection ~ 6500 3550
+Wire Wire Line
+	8400 3650 8250 3650
+Wire Wire Line
+	8250 3650 8250 4150
+Wire Wire Line
+	8400 3750 8250 3750
+Connection ~ 8250 3750
+Wire Wire Line
+	8400 3950 8250 3950
+Connection ~ 8250 3950
+Wire Wire Line
+	8400 4050 8250 4050
+Connection ~ 8250 4050
+Wire Wire Line
+	5450 4700 5450 4600
+Wire Wire Line
+	4350 4600 5750 4600
+Wire Wire Line
+	6500 4600 6500 4750
+Wire Wire Line
+	5450 5200 5450 5250
+Wire Wire Line
+	6500 5150 6500 5250
+Connection ~ 6500 4600
+Wire Wire Line
+	8400 4700 8250 4700
+Wire Wire Line
+	8250 4700 8250 5200
+Wire Wire Line
+	8400 4800 8250 4800
+Connection ~ 8250 4800
+Wire Wire Line
+	8400 5000 8250 5000
+Connection ~ 8250 5000
+Wire Wire Line
+	8400 5100 8250 5100
+Connection ~ 8250 5100
+Wire Wire Line
+	3750 3950 4350 3950
+Wire Wire Line
+	4350 3950 4350 3550
+Connection ~ 5450 3550
+Wire Wire Line
+	3750 4500 4350 4500
+Wire Wire Line
+	4350 4500 4350 4600
+Connection ~ 5450 4600
+Wire Notes Line
+	1750 3150 1750 5250
+Wire Notes Line
+	1750 5250 3950 5250
+Wire Notes Line
+	3950 5250 3950 3150
+Wire Notes Line
+	3950 3150 1750 3150
+Wire Notes Line
+	5150 3150 5150 5400
+Wire Notes Line
+	5150 5400 6750 5400
+Wire Notes Line
+	6750 5400 6750 3150
+Wire Notes Line
+	6750 3150 5150 3150
+Wire Notes Line
+	6900 5400 9800 5400
+Wire Notes Line
+	9800 5400 9800 3150
+Wire Notes Line
+	9800 3150 6900 3150
+Wire Wire Line
+	6250 4600 7650 4600
+Wire Wire Line
+	7650 4600 7650 4250
+Wire Wire Line
+	7650 4250 7500 4250
+Wire Wire Line
+	7500 4350 7800 4350
+Wire Wire Line
+	7800 4350 7800 4600
+Wire Wire Line
+	7800 4600 8400 4600
+Wire Wire Line
+	7500 4150 7900 4150
+Wire Wire Line
+	7900 4150 7900 3850
+Wire Wire Line
+	7900 3850 8400 3850
+$Comp
+L JACK_ST_3SW J3
+U 1 1 53AB67ED
+P 9050 3750
+F 0 "J3" H 8675 3400 60  0000 C CNN
+F 1 "JACK_ST_3SW" H 8975 4200 60  0000 C CNN
+F 2 "~" H 9250 3650 60  0000 C CNN
+F 3 "~" H 9250 3650 60  0000 C CNN
+	1    9050 3750
+	-1   0    0    1   
+$EndComp
+Text Notes 6950 3950 0    60   Italic 0
+Single Stereo/\nDual Mono
+Wire Notes Line
+	6900 3150 6900 5400
+$EndSCHEMATC

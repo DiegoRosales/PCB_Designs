@@ -1,0 +1,239 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:papilio_wings
+LIBS:Ethernet_controllers
+LIBS:Transformers
+LIBS:ADC
+LIBS:PLL
+LIBS:Jacks
+LIBS:DAC
+LIBS:Pushbutton
+LIBS:Quetzalcoatl-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date "3 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PUSHBUTTON SW1
+U 1 1 53B44320
+P 4200 1550
+F 0 "SW1" H 4350 1660 50  0000 C CNN
+F 1 "PUSHBUTTON" H 4200 1400 50  0000 C CNN
+F 2 "~" H 4200 1550 60  0000 C CNN
+F 3 "~" H 4200 1550 60  0000 C CNN
+	1    4200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PUSHBUTTON SW2
+U 1 1 53B4432D
+P 4200 2550
+F 0 "SW2" H 4350 2660 50  0000 C CNN
+F 1 "PUSHBUTTON" H 4200 2400 50  0000 C CNN
+F 2 "~" H 4200 2550 60  0000 C CNN
+F 3 "~" H 4200 2550 60  0000 C CNN
+	1    4200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 53B44335
+P 4200 3000
+F 0 "D1" H 4200 3100 50  0000 C CNN
+F 1 "LED" H 4200 2900 50  0000 C CNN
+F 2 "~" H 4200 3000 60  0000 C CNN
+F 3 "~" H 4200 3000 60  0000 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 53B44342
+P 4200 3450
+F 0 "D2" H 4200 3550 50  0000 C CNN
+F 1 "LED" H 4200 3350 50  0000 C CNN
+F 2 "~" H 4200 3450 60  0000 C CNN
+F 3 "~" H 4200 3450 60  0000 C CNN
+	1    4200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 53B4434A
+P 4900 3000
+F 0 "R16" V 4980 3000 40  0000 C CNN
+F 1 "1k" V 4907 3001 40  0000 C CNN
+F 2 "~" V 4830 3000 30  0000 C CNN
+F 3 "~" H 4900 3000 30  0000 C CNN
+	1    4900 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R17
+U 1 1 53B44357
+P 4900 3450
+F 0 "R17" V 4980 3450 40  0000 C CNN
+F 1 "1k" V 4907 3451 40  0000 C CNN
+F 2 "~" V 4830 3450 30  0000 C CNN
+F 3 "~" H 4900 3450 30  0000 C CNN
+	1    4900 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 2650 3900 2650
+Wire Wire Line
+	3750 2500 3750 2650
+Wire Wire Line
+	3600 2550 3900 2550
+Connection ~ 3750 2550
+Wire Wire Line
+	3600 1550 3900 1550
+Wire Wire Line
+	3750 1650 3900 1650
+Wire Wire Line
+	3750 1500 3750 1650
+Connection ~ 3750 1550
+Wire Wire Line
+	4000 3000 3600 3000
+Wire Wire Line
+	4400 3000 4650 3000
+Wire Wire Line
+	4000 3450 3600 3450
+Wire Wire Line
+	4400 3450 4650 3450
+Wire Wire Line
+	5150 3000 5300 3000
+Wire Wire Line
+	5300 1550 5300 3600
+Wire Wire Line
+	5150 3450 5300 3450
+Connection ~ 5300 3450
+$Comp
+L GND #PWR47
+U 1 1 53B443DD
+P 5300 3600
+F 0 "#PWR47" H 5300 3600 30  0001 C CNN
+F 1 "GND" H 5300 3530 30  0001 C CNN
+F 2 "" H 5300 3600 60  0000 C CNN
+F 3 "" H 5300 3600 60  0000 C CNN
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 3600 3000 0    60   Input Italic 12
+LED1
+Text HLabel 3600 3450 0    60   Input Italic 12
+LED2
+Text HLabel 3600 2550 0    60   Input Italic 12
+PB2
+Text HLabel 3600 1550 0    60   Input Italic 12
+PB1
+$Comp
+L R R15
+U 1 1 53B443F9
+P 3750 2250
+F 0 "R15" V 3830 2250 40  0000 C CNN
+F 1 "1k" V 3757 2251 40  0000 C CNN
+F 2 "~" V 3680 2250 30  0000 C CNN
+F 3 "~" H 3750 2250 30  0000 C CNN
+	1    3750 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR46
+U 1 1 53B44412
+P 3750 2000
+F 0 "#PWR46" H 3750 2090 20  0001 C CNN
+F 1 "+5V" H 3750 2090 30  0000 C CNN
+F 2 "" H 3750 2000 60  0000 C CNN
+F 3 "" H 3750 2000 60  0000 C CNN
+	1    3750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 53B4441F
+P 3750 1250
+F 0 "R14" V 3830 1250 40  0000 C CNN
+F 1 "1k" V 3757 1251 40  0000 C CNN
+F 2 "~" V 3680 1250 30  0000 C CNN
+F 3 "~" H 3750 1250 30  0000 C CNN
+	1    3750 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR45
+U 1 1 53B44438
+P 3750 1000
+F 0 "#PWR45" H 3750 1090 20  0001 C CNN
+F 1 "+5V" H 3750 1090 30  0000 C CNN
+F 2 "" H 3750 1000 60  0000 C CNN
+F 3 "" H 3750 1000 60  0000 C CNN
+	1    3750 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1550 5300 1550
+Connection ~ 5300 3000
+Wire Wire Line
+	4500 2650 5300 2650
+Connection ~ 5300 2650
+Wire Wire Line
+	4500 2550 4650 2550
+Wire Wire Line
+	4650 2550 4650 2650
+Connection ~ 4650 2650
+Wire Wire Line
+	4500 1650 4650 1650
+Wire Wire Line
+	4650 1650 4650 1550
+Connection ~ 4650 1550
+Wire Notes Line
+	3050 850  3050 3750
+Wire Notes Line
+	3050 3750 5450 3750
+Wire Notes Line
+	5450 3750 5450 850 
+Wire Notes Line
+	5450 850  3050 850 
+Text Notes 3050 850  0    120  Italic 24
+Misc
+$EndSCHEMATC

@@ -51,16 +51,27 @@ LIBS:Transformers
 LIBS:Footprints Test-cache
 EELAYER 27 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 6000 5000
 encoding utf-8
-Sheet 1 13
-Title ""
+Sheet 12 13
+Title "PLL"
 Date "8 aug 2014"
-Rev ""
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L PLL1705 PLL?
+U 1 1 53E522DC
+P 2950 2200
+F 0 "PLL?" H 2950 2850 60  0000 C CNN
+F 1 "PLL1705" H 2950 2750 60  0000 C CNN
+F 2 "~" H 2800 2750 60  0000 C CNN
+F 3 "~" H 2800 2750 60  0000 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
