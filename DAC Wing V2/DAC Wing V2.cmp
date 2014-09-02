@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 29/08/2014 21:16:04
+
+BeginCmp
+TimeStamp = /5400D24B;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D876;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D894;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D88E;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D290;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D633;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D661;
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D65B;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400E968;
+Reference = C9;
+ValeurCmp = 10uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400E956;
+Reference = C10;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400E94E;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400E948;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400E942;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400E922;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D53A;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D22B;
+Reference = DAC1;
+ValeurCmp = PCM1754;
+IdModule  = ssop-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400DBB0;
+Reference = J1;
+ValeurCmp = JACK_ST_1SW_PROPER;
+IdModule  = Jack_3.5mm_Stereo;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400EC2E;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400EC28;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400EC22;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400EC15;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D315;
+Reference = PAP1;
+ValeurCmp = PAPILIO_WING;
+IdModule  = Papilio_Wing;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400EB17;
+Reference = PAP2;
+ValeurCmp = PAPILIO_WING;
+IdModule  = Papilio_Wing;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/5400E8E6;
+Reference = PLL1;
+ValeurCmp = PLL1705;
+IdModule  = SO24E;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D87C;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D888;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D882;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D48C;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D499;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D642;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D655;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D64F;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400D61A;
+Reference = U1;
+ValeurCmp = TL072;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400E8DE/540132A1;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe
