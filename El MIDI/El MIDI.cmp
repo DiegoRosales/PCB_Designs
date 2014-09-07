@@ -1,0 +1,311 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05/09/2014 14:22:14
+
+BeginCmp
+TimeStamp = /540A070F;
+Reference = ADC1;
+ValeurCmp = MCP3004;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AB3;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AC0;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AC6;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2ACC;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AD2;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AD8;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2ADE;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AE4;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E848;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A1089;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A1096;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E839;
+Reference = MCU1;
+ValeurCmp = PIC16F1454;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409FE12;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409EB1D;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409EB2A;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409EB30;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409EB36;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409F3B5;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409F3AF;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409F3A9;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409F3A3;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2A75;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2A87;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2A8D;
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2A93;
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2A99;
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2A9F;
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AA5;
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2AAB;
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E857;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Pot90deg_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E864;
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = Pot90deg_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E86A;
+Reference = RV3;
+ValeurCmp = POT;
+IdModule  = Pot90deg_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E870;
+Reference = RV4;
+ValeurCmp = POT;
+IdModule  = Pot90deg_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E98A;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SPDT_Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E99E;
+Reference = SW2;
+ValeurCmp = SWITCH_INV;
+IdModule  = SPDT_Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E9A4;
+Reference = SW3;
+ValeurCmp = SWITCH_INV;
+IdModule  = SPDT_Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409E9AA;
+Reference = SW4;
+ValeurCmp = SWITCH_INV;
+IdModule  = SPDT_Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409EC94;
+Reference = SW5;
+ValeurCmp = PUSHBUTTON;
+IdModule  = TactileSW_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409ECA1;
+Reference = SW6;
+ValeurCmp = PUSHBUTTON;
+IdModule  = TactileSW_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409ECA7;
+Reference = SW7;
+ValeurCmp = PUSHBUTTON;
+IdModule  = TactileSW_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409ECAD;
+Reference = SW8;
+ValeurCmp = PUSHBUTTON;
+IdModule  = TactileSW_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A18E7;
+Reference = U1;
+ValeurCmp = MCP23S08;
+IdModule  = DIP-18__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /540A2873;
+Reference = U2;
+ValeurCmp = MCP23S08;
+IdModule  = DIP-18__300_ELL;
+EndCmp
+
+EndListe

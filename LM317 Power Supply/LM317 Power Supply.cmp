@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 11/07/2014 18:28:59
+
+BeginCmp
+TimeStamp = /53C05CB0;
+Reference = C1;
+ValeurCmp = 0.01uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C052C2;
+Reference = C2;
+ValeurCmp = 2200uF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C053D2;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C053DF;
+Reference = C4;
+ValeurCmp = 470uF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C05FBD;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = JACK_ALIM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C05322;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C054EB;
+Reference = F1;
+ValeurCmp = 1812L150/24MR;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06671;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C0692C;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C064BB;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C0530E;
+Reference = R1;
+ValeurCmp = 2.2k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C057AD;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C0538D;
+Reference = R3;
+ValeurCmp = 120;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C057D7;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06997;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C05E45;
+Reference = R6;
+ValeurCmp = 22k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C05DCE;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C05377;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Pot_5mm_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06BAC;
+Reference = TP1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06C17;
+Reference = TP2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C06C6E;
+Reference = TP3;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C05352;
+Reference = U1;
+ValeurCmp = LM317;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C05C29;
+Reference = U2;
+ValeurCmp = LT1206;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+EndListe
