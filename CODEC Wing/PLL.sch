@@ -46,7 +46,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "CODEC Wing"
-Date "2 sep 2014"
+Date "23 sep 2014"
 Rev "1.0"
 Comp "Cholula Audio"
 Comment1 "By Diego Rosales"

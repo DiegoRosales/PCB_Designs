@@ -46,7 +46,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "CODEC Wing"
-Date "2 sep 2014"
+Date "19 sep 2014"
 Rev "1.0"
 Comp "Cholula Audio"
 Comment1 "By Diego Rosales"
@@ -325,17 +325,6 @@ F 1 "LOGO" H 6400 8040 60  0001 C CNN
 F 2 "" H 6400 7450 60  0000 C CNN
 F 3 "" H 6400 7450 60  0000 C CNN
 	1    6400 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L OSHW #G1
-U 1 1 54050EC4
-P 10550 6300
-F 0 "#G1" H 10550 5820 60  0001 C CNN
-F 1 "OSHW" H 10550 6780 60  0001 C CNN
-F 2 "" H 10550 6300 60  0000 C CNN
-F 3 "" H 10550 6300 60  0000 C CNN
-	1    10550 6300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
