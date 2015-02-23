@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 15/01/2015 15:14:19
+
+BeginCmp
+TimeStamp = /54B8277B;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B829A1;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B82680;
+Reference = PAP1;
+ValeurCmp = PAPILIO_WING;
+IdModule  = Papilio_Wing;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B82AB6;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B82671;
+Reference = SRAM1;
+ValeurCmp = 23A256;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B82A89;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = FSMSM;
+EndCmp
+
+EndListe

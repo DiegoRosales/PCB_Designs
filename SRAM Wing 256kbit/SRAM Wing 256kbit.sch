@@ -1,0 +1,235 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:papilio_wings
+LIBS:SRAM
+LIBS:Pushbutton
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "15 jan 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 23A256 SRAM1
+U 1 1 54B82671
+P 5600 3300
+F 0 "SRAM1" H 5300 2950 60  0000 C CNN
+F 1 "23A256" H 5850 3550 60  0000 C CNN
+F 2 "~" H 5850 3400 60  0000 C CNN
+F 3 "~" H 5850 3400 60  0000 C CNN
+	1    5600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PAPILIO_WING PAP1
+U 1 1 54B82680
+P 3800 3100
+F 0 "PAP1" H 3750 3850 60  0000 C CNN
+F 1 "PAPILIO_WING" H 3800 3950 60  0000 C CNN
+F 2 "~" H 3450 3950 60  0000 C CNN
+F 3 "~" H 3450 3950 60  0000 C CNN
+	1    3800 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 54B82742
+P 3100 3750
+F 0 "#PWR1" H 3100 3750 30  0001 C CNN
+F 1 "GND" H 3100 3680 30  0001 C CNN
+F 2 "~" H 3100 3750 60  0000 C CNN
+F 3 "~" H 3100 3750 60  0000 C CNN
+	1    3100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 54B8276C
+P 5600 3800
+F 0 "#PWR3" H 5600 3800 30  0001 C CNN
+F 1 "GND" H 5600 3730 30  0001 C CNN
+F 2 "~" H 5600 3800 60  0000 C CNN
+F 3 "~" H 5600 3800 60  0000 C CNN
+	1    5600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 54B8277B
+P 2850 3400
+F 0 "C1" H 2850 3500 40  0000 L CNN
+F 1 "C" H 2856 3315 40  0000 L CNN
+F 2 "~" H 2888 3250 30  0000 C CNN
+F 3 "~" H 2850 3400 60  0000 C CNN
+	1    2850 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3450 4950 3450
+Wire Wire Line
+	4950 3450 4950 3700
+Wire Wire Line
+	4950 3700 4350 3700
+Wire Wire Line
+	4350 3600 4850 3600
+Wire Wire Line
+	4850 3600 4850 3350
+Wire Wire Line
+	4850 3350 5150 3350
+Wire Wire Line
+	5150 3250 4750 3250
+Wire Wire Line
+	4750 3250 4750 3500
+Wire Wire Line
+	4750 3500 4350 3500
+Wire Wire Line
+	4350 3400 4650 3400
+Wire Wire Line
+	4650 3400 4650 2750
+Wire Wire Line
+	4650 2750 6400 2750
+Wire Wire Line
+	6400 2750 6400 3300
+Wire Wire Line
+	6400 3300 6100 3300
+Wire Wire Line
+	4350 3300 4550 3300
+Wire Wire Line
+	4550 3300 4550 2650
+Wire Wire Line
+	4550 2650 6550 2650
+Wire Wire Line
+	6550 2650 6550 3400
+Wire Wire Line
+	6550 3400 6100 3400
+Wire Wire Line
+	5600 2950 5600 2400
+Wire Wire Line
+	5600 2400 3050 2400
+Wire Wire Line
+	3050 2400 3050 3500
+Wire Wire Line
+	3050 3500 3200 3500
+Wire Wire Line
+	2850 3700 3200 3700
+Wire Wire Line
+	3100 3700 3100 3750
+Wire Wire Line
+	5600 3750 5600 3800
+Wire Wire Line
+	2850 3200 2850 3100
+Wire Wire Line
+	2850 3100 3050 3100
+Connection ~ 3050 3100
+Wire Wire Line
+	2850 3600 2850 3700
+Connection ~ 3100 3700
+$Comp
+L LED D1
+U 1 1 54B829A1
+P 4600 1500
+F 0 "D1" H 4600 1600 50  0000 C CNN
+F 1 "LED" H 4600 1400 50  0000 C CNN
+F 2 "~" H 4600 1500 60  0000 C CNN
+F 3 "~" H 4600 1500 60  0000 C CNN
+	1    4600 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 54B82A89
+P 5000 1550
+F 0 "SW1" H 5150 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 5000 1470 50  0000 C CNN
+F 2 "~" H 5000 1550 60  0000 C CNN
+F 3 "~" H 5000 1550 60  0000 C CNN
+	1    5000 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 54B82AB6
+P 4600 2050
+F 0 "R1" V 4680 2050 40  0000 C CNN
+F 1 "1k" V 4607 2051 40  0000 C CNN
+F 2 "~" V 4530 2050 30  0000 C CNN
+F 3 "~" H 4600 2050 30  0000 C CNN
+	1    4600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3000 4400 3000
+Wire Wire Line
+	4400 3000 4400 2350
+Wire Wire Line
+	4400 2350 4600 2350
+Wire Wire Line
+	4600 2350 4600 2300
+Wire Wire Line
+	4350 3100 4450 3100
+Wire Wire Line
+	4450 3100 4450 2450
+Wire Wire Line
+	4450 2450 5000 2450
+Wire Wire Line
+	5000 2450 5000 1850
+Wire Wire Line
+	4600 1800 4600 1700
+Wire Wire Line
+	4600 1300 4600 1200
+Wire Wire Line
+	4350 1200 5000 1200
+Wire Wire Line
+	5000 1200 5000 1250
+Wire Wire Line
+	4350 1200 4350 1250
+Connection ~ 4600 1200
+$Comp
+L GND #PWR2
+U 1 1 54B82B96
+P 4350 1250
+F 0 "#PWR2" H 4350 1250 30  0001 C CNN
+F 1 "GND" H 4350 1180 30  0001 C CNN
+F 2 "~" H 4350 1250 60  0000 C CNN
+F 3 "~" H 4350 1250 60  0000 C CNN
+	1    4350 1250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 28/10/2014 11:45:56
+
+BeginCmp
+TimeStamp = /544FCF5F;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FCF72;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FCF6C;
+Reference = C3;
+ValeurCmp = CP1;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FCF78;
+Reference = C4;
+ValeurCmp = CP1;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB5A8;
+Reference = C5;
+ValeurCmp = 22nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FD209;
+Reference = C6;
+ValeurCmp = CP1;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FD20F;
+Reference = C7;
+ValeurCmp = CP1;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FD35B;
+Reference = C8;
+ValeurCmp = CP1;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FD636;
+Reference = J1;
+ValeurCmp = JACK_MN;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FD643;
+Reference = J2;
+ValeurCmp = JACK_MN;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FCD8E;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB593;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB5DE;
+Reference = R2;
+ValeurCmp = 1Meg;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB7E7;
+Reference = R3;
+ValeurCmp = 5k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB7F4;
+Reference = R4;
+ValeurCmp = 5k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB8B2;
+Reference = R5;
+ValeurCmp = 39k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB933;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB8F1;
+Reference = R7;
+ValeurCmp = 50k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB92D;
+Reference = R8;
+ValeurCmp = 39k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB77A;
+Reference = Rev1;
+ValeurCmp = BTDR-2H;
+IdModule  = Accutronics1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB825;
+Reference = RV1;
+ValeurCmp = 50k;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FBBC7;
+Reference = U1;
+ValeurCmp = LM7812;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FBBE0;
+Reference = U2;
+ValeurCmp = LM7912;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FBA27;
+Reference = U3;
+ValeurCmp = 7805;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FB5CF;
+Reference = U4;
+ValeurCmp = TL082;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+EndListe
